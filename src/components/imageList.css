@@ -1,0 +1,15 @@
+.image-list {
+  columns: 5 200px;
+  column-gap: 10px;
+}
+
+img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.effect:hover {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  transform: scale(1.03);
+}
