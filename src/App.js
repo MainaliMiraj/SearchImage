@@ -15,6 +15,12 @@ function App() {
     <div>
       <SearchBar onSubmit={handleSubmit} />
       <ImageList images={images} />
+      <div className="footer">
+        By:
+        <a href="https://github.com/MainaliMiraj" target="blank">
+          Miraj Mainali
+        </a>
+      </div>
     </div>
   );
 }
